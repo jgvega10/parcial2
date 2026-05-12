@@ -22,6 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/typeorm": "^11.0.1",
     "better-sqlite3": "^12.9.0",
@@ -29,7 +30,7 @@
     "class-validator": "^0.15.1",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
-    "typeorm": "^0.3.28",
+    "typeorm": "^0.3.29",
     "uuid": "^14.0.0"
   },
   "devDependencies": {
@@ -38,10 +39,12 @@
     "@nestjs/cli": "^11.0.0",
     "@nestjs/schematics": "^11.0.0",
     "@nestjs/testing": "^11.0.1",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/express": "^5.0.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.10.7",
     "@types/supertest": "^6.0.2",
+    "@types/uuid": "^10.0.0",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.2",
